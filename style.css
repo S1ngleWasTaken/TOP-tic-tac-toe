@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+html{
+    background-color: rgb(65, 65, 65);
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 10rem);
+    grid-template-rows: repeat(3, 10rem);
+    gap: 1rem;
+
+}
+
+.grid-spot{
+    background-color: rgb(77, 77, 77);
+    height: 10rem;
+    width: 10rem;
+    font-size: 120px;
+    text-align: center;
+    color: white;
+}
